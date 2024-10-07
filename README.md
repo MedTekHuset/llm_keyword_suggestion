@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Om dette repo
+Dette repository indeholder et Proof-Of-Concept på nøgleordsforslag genereret med Ollama.
+
+## Brug
+For at køre projektet, skal [Ollama](https://ollama.com/) være installeret, og modellen `llama3.1:latest` være installeret.
+For at gøre det, kør følgende kommandoer i WSL (hvis du er på Windows), eller terminalen på Linux:
+
+    curl -fsSL https://ollama.com/install.sh | sh
+    ollama pull llama3.1:latest
+
+
+# React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
